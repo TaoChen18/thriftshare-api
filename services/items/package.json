@@ -1,0 +1,11 @@
+{
+  "name": "items-service",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sls offline --stage local --httpPort 5000",
+    "test": "npm --prefix ./../../ test services/items",
+    "test:watch": "npm --prefix ./../../ run test:watch services/items"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

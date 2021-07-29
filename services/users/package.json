@@ -1,0 +1,11 @@
+{
+  "name": "users-service",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sls offline --stage local --httpPort 5000",
+    "test": "npm --prefix ./../../ test services/users",
+    "test:watch": "npm --prefix ./../../ run test:watch services/users"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

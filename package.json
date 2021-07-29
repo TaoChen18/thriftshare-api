@@ -1,0 +1,23 @@
+{
+  "name": "thriftshare-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node bin/preinstall",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaoChen18/thriftshare-api.git"
+  },
+  "author": "Tao Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaoChen18/thriftshare-api/issues"
+  },
+  "homepage": "https://github.com/TaoChen18/thriftshare-api#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
